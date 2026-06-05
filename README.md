@@ -12,9 +12,7 @@ IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+![Home](public/assets/img/home1.png)
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+![Detalhes](public/assets/img/detalhes1.png)
 
