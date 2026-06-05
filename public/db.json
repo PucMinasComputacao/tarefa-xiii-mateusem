@@ -1,0 +1,169 @@
+{
+    "jogos": [
+
+        {
+            "id": 1,
+            "nome": "Elden Ring",
+            "descricao": "RPG de ação em mundo aberto.",
+            "conteudo": "Elden Ring é um RPG desenvolvido pela FromSoftware em parceria com George R. R. Martin.",
+            "genero": "RGP",
+            "estudio": "FromSoftware",
+            "lancamento": "2022",
+            "plataforma": "PC, PS5 E Xbox",
+            "nota": "96",
+            "destaque": true,
+            "imagem_principal": "assets/img/elden.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "Malenia",
+                    "descricao": "Uma das chefes mais difíceis do jogo.",
+                    "imagem": "assets/img/malenia.jpg"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "nome": "Cyberpunk 2077",
+            "descricao": "RGP futurista em Night City",
+            "conteudo": "Cyberpunk 2077 é um RPG futurista focado em narrativa e mundo aberto.",
+            "genero": "RPG/Ação",
+            "estudio": "CD Project Red",
+            "lancamento": "2020",
+            "plataforma": "PC, PS5 e Xbox",
+            "nota": "86",
+            "destaque": true,
+            "imagem_principal": "assets/img/cyberpunk.jpg",
+            "personagem": [
+                {
+                    "id": 1,
+                    "nome": "Jonny Silverhand",
+                    "descricao": "Personagem interpretado por Keanu Reeves.",
+                    "imagem": "assets/img/kr.jpg"
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "nome": "Red Dead Redemption 2",
+            "descricao": "Aventura em mundo aberto no velho oeste.",
+            "conteudo": "Red Dead Redemption 2 é um jogo da Rockstar Games focado em narrativa, exploração e realismo no velho oeste americano.",
+            "genero": "Ação/Aventura",
+            "estudio": "Rockstar Games",
+            "lancamento": "2018",
+            "plataforma": "PC, PS5 e Xbox",
+            "nota": "97",
+            "destaque": true,
+            "imagem_principal": "assets/img/reddead.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "Arthur Morgan",
+                    "descricao": "O protagonista principal da gangue Van der Linde.",
+                    "imagem": "assets/img/arthur.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "id": 4,
+            "nome": "The Witcher 3",
+            "descricao": "RPG de fantasia com narrativa profunda.",
+            "conteudo": "The Witcher 3 acompanha Geralt de Rivia em uma jornada épica cheia de monstros, escolhas e batalhas.",
+            "genero": "RPG",
+            "estudio": "CD Projekt Red",
+            "lancamento": "2015",
+            "plataforma": "PC, PS5 e Xbox",
+            "nota": "94",
+            "destaque": false,
+            "imagem_principal": "assets/img/tw3.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "Geralt de Rivia",
+                    "descricao": "Um bruxo caçador de monstros.",
+                    "imagem": "assets/img/geralt.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "id": 5,
+            "nome": "Ghost of Tsushima",
+            "descricao": "Samurai em guerra contra invasores mongóis.",
+            "conteudo": "Ghost of Tsushima mistura combate samurai cinematográfico com exploração em um Japão feudal impressionante.",
+            "genero": "Ação/Aventura",
+            "estudio": "Sucker Punch",
+            "lancamento": "2020",
+            "plataforma": "PS5 e PC",
+            "nota": "91",
+            "destaque": true,
+            "imagem_principal": "assets/img/tsushima.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "Jin Sakai",
+                    "descricao": "Samurai que luta para proteger Tsushima.",
+                    "imagem": "assets/img/pgt.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "id": 6,
+            "nome": "Hollow Knight",
+            "descricao": "Metroidvania desafiador em um reino subterrâneo.",
+            "conteudo": "Hollow Knight oferece exploração profunda, combates difíceis e uma atmosfera misteriosa em Hallownest.",
+            "genero": "Metroidvania",
+            "estudio": "Team Cherry",
+            "lancamento": "2017",
+            "plataforma": "PC, Switch, PS5 e Xbox",
+            "nota": "90",
+            "destaque": false,
+            "imagem_principal": "assets/img/hk.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "The Knight",
+                    "descricao": "Pequeno guerreiro silencioso de Hallownest.",
+                    "imagem": "assets/img/tk.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "id": 7,
+            "nome": "Baldur's Gate 3",
+            "descricao": "RPG baseado em Dungeons & Dragons.",
+            "conteudo": "Baldur's Gate 3 traz escolhas complexas, combate estratégico e uma narrativa extremamente rica.",
+            "genero": "RPG",
+            "estudio": "Larian Studios",
+            "lancamento": "2023",
+            "plataforma": "PC e PS5",
+            "nota": "96",
+            "destaque": true,
+            "imagem_principal": "assets/img/bg3.jpg",
+            "personagem": [
+
+                {
+                    "id": 1,
+                    "nome": "Astarion",
+                    "descricao": "Vampiro carismático e perigoso.",
+                    "imagem": "assets/img/astarion.jpg"
+                }
+
+            ]
+        }
+    ]
+}

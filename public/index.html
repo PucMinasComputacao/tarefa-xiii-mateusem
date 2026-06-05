@@ -1,13 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <title>The Grind</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+
     
+
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container">
+
+                <!-- NOME DO SITE -->
+                
+                <a class="navbar-brand fw-bold" href="#">The Grind</a>
+
+                <!-- BOTÃO MENU MOBILE -->
+
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <!-- MENU -->
+
+                <div class="collapse navbar-collapse" id="menu">
+                    
+                    <ul class="navbar-nav ms-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destaques">Destaques</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jogos">Jogos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- CAROUSEL -->
+
+    <section id="destaques" class="container mt-5">
+
+        <h2 class="mb-4">Jogos em Destaque</h2>
+
+        <div id="carouselJogos" class="carousel slide">
+
+        <!-- INDICADORES -->
+
+            <div class="carousel-indicators" id="indicadores-carousel">
+
+        <!-- BOTÕES JAVASCRIPT -->
+
+            </div>
+
+        <!-- SLIDES -->
+
+            <div class="carousel-inner" id="carousel-inner">
+            
+        <!-- BOTÕES JAVASCRIPT -->
+
+            </div>
+
+        <!-- BOTÃO ANTERIOR -->
+
+            <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselJogos"
+            data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+        <!-- BOTÃO PRÓXIMO -->
+
+            <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselJogos"
+            data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+        </div>
+
+    </section>
+
+    <!-- CARDS DOS JOGOS -->
+
+    <section id="jogos" class="container mt-5">
+
+        <h2 class="mb-4">Todos os Jogos</h2>
+
+        <div class="row g-4" id="lista-jogos">
+
+        <!-- BOTÕES JAVASCRIPT -->
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="container mt-5 mb-5">
+
+        <div class="bg-dark text-light p-4 rounded"><h2>Sobre o Projeto</h2>
+
+        <p>O The Grind é um site dedicado a fornecer informações, análises e notícias sobre jogos. Nosso objetivo é criar uma comunidade de jogadores apaixonados, oferecendo conteúdo de qualidade e atualizado regularmente. Seja você um jogador casual ou hardcore, o The Grind tem algo para todos. Junte-se a nós e fique por dentro do mundo dos jogos!</p>
+
+        <p>Desenvolvido por Mateus Evaristo Melo</p>
+
+    </div>
+</section>
+
+    <!-- RODAPÉ -->
+
+    <footer class="bg-dark text-light text-center p-3">
+
+            <p class="mb-0">© 2026 The Grind. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/app.js"></script>
+
 </body>
+
 </html>

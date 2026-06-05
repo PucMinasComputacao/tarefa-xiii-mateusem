@@ -1,0 +1,249 @@
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    background-color: #111315;
+
+    color: #e5e7eb;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar {
+
+    background-color: #16181b !important;
+
+    border-bottom: 1px solid #23262b;
+}
+
+.navbar-brand {
+
+    font-size: 1.6rem;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    color: #f3f4f6 !important;
+}
+
+.nav-link {
+
+    color: #9ca3af !important;
+
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+
+    color: #ffffff !important;
+}
+
+
+
+h1,
+h2,
+h5 {
+
+    font-weight: 700;
+
+    color: #f9fafb;
+}
+
+h2 {
+
+    margin-bottom: 25px;
+}
+
+
+.carousel {
+
+    border-radius: 16px;
+
+    overflow: hidden;
+}
+
+.carousel-item img {
+
+    height: 520px;
+
+    object-fit: cover;
+
+    filter: brightness(65%);
+}
+
+.carousel-caption {
+
+    bottom: 20%;
+}
+
+.carousel-caption h5 {
+
+    font-size: 2.8rem;
+
+    font-weight: bold;
+}
+
+.carousel-caption p {
+
+    font-size: 1.05rem;
+
+    max-width: 650px;
+
+    margin: auto;
+}
+
+
+
+.card {
+
+    background-color: #1a1d21;
+
+    border: 1px solid #2b3036;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    transition: 0.25s;
+
+    color: white;
+}
+
+.card:hover {
+
+    transform: translateY(-4px);
+
+    border-color: #3f454d;
+}
+
+.card img {
+
+    height: 240px;
+
+    object-fit: cover;
+}
+
+.card-body {
+
+    padding: 1.3rem;
+}
+
+.card-title {
+
+    font-size: 1.25rem;
+
+    margin-bottom: 10px;
+}
+
+.card-text {
+
+    color: #9ca3af;
+
+    flex-grow: 1;
+}
+
+
+
+.btn-dark {
+
+    background-color: #f3f4f6;
+
+    color: #111315;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.btn-dark:hover {
+
+    background-color: #d1d5db;
+
+    color: black;
+}
+
+
+
+.list-group-item {
+
+    background-color: #1a1d21;
+
+    color: #f3f4f6;
+
+    border: 1px solid #2b3036;
+}
+
+
+
+#sobre .bg-dark {
+
+    background-color: #1a1d21 !important;
+
+    border: 1px solid #2b3036;
+
+    border-radius: 16px;
+}
+
+
+
+footer {
+
+    margin-top: 60px;
+
+    background-color: #16181b;
+
+    border-top: 1px solid #23262b;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .carousel-item img {
+
+        height: 280px;
+    }
+
+    .carousel-caption {
+
+        bottom: 10%;
+    }
+
+    .carousel-caption h5 {
+
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+
+        font-size: 0.9rem;
+    }
+
+    .card img {
+
+        height: 200px;
+    }
+
+    .navbar-brand {
+
+        font-size: 1.3rem;
+    }
+}
